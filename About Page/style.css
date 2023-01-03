@@ -1,0 +1,13 @@
+h1 {
+   color: black;
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+}
+p {
+   color: gray;
+   font-size: 15px;
+}
+.head {
+   text-align: center;
+   color: yellowgreen
+}
