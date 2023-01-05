@@ -1,4 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: aliceblue;
+}
 .enquiry {
     text-align: center;
     color: blue
+}
+.note {
+    text-align: center;
+    color: darkslateblue;
+    position: relative;
+    bottom: -0.5em;
+}
+.container {
+    position: relative;
+    bottom: -5em;
+}
+form {
+    background-color: white;
+    width: 500px;
+    position: absolute;
+    top: 10em;
+    position: relative;
+    left: 26em;
+    height: 300px;
+    border-radius: 8px;
+}
+.input-item {
+    padding: 13px;
+    position: relative;
+    left: 2em;
+    bottom: -2em;
+    border: 1px solid gainsboro;
+    border-radius: 8px;
+}
+.input-item2 {
+    padding: 10px;
+    position: relative;
+    left: 18em;
+    bottom: 0.6rem;
+    border: 1px solid gainsboro;
+    border-radius: 8px; 
+}
+.input-item::placeholder {
+    text-align: center;
+}
+.input-item2::placeholder {
+    text-align: center;
+}
+textarea {
+    padding: 10px;
+    position: relative;
+    left: 9em;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid gainsboro;
+    border-radius: 8px;
+}
+button {
+    position: relative;
+    bottom: -5em;
+    left: -2em;
+    border: none;
+    padding: 12px;
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+cursor: pointer;
 }
