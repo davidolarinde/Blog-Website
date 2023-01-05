@@ -1,0 +1,41 @@
+* {
+    margin:0;
+    padding: 0;
+
+}
+body {
+    background-color: whitesmoke;
+}
+.img {
+    width: 350px;
+    height: 300px;
+}
+.container {
+    position: relative;
+    bottom: -10em;
+  background-color: white;  
+  width: 350px;
+  height: 400px;
+  border-radius: 5px;
+  z-index: 1;
+  position: relative;
+  left: 3em
+}
+.img-desc {
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn-img {
+    border: 1px solid green;
+    background-color: transparent;
+  padding-top: 10px;
+  padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: relative;
+    left: 4em;
+    border-radius: 8px;
+    bottom: -2em;
+    color: green;
+    cursor: pointer;
+}
