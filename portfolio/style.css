@@ -39,3 +39,7 @@ body {
     color: green;
     cursor: pointer;
 }
+.Tech-img {
+    width: 350px;
+    height: 300px;  
+}
