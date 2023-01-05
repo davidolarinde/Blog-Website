@@ -1,7 +1,17 @@
+* {
+   margin: 0;
+   padding: 0;
+
+}
+body {
+   background-color: whitesmoke;
+}
 h1 {
    color: black;
    text-align: center;
    font-family: 'Times New Roman', Times, serif;
+   position: relative;
+  bottom: -2em;
 }
 p {
    color: gray;

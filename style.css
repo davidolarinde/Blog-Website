@@ -3,9 +3,7 @@
     margin: 0;
 
 }
-body {
-    
-}
+
 nav {
     background-color: white;
 }
@@ -14,6 +12,7 @@ nav img {
     width: 55px;
     position: relative;
     left: 10em;
+    z-index: 1;
 }
 nav a {
     text-decoration: none;
@@ -21,16 +20,18 @@ nav a {
     color: black;
     font-size: 15px;
   position: relative;
-  left: 64em;
+  left: 35em;
   bottom: 2em;
   margin-left: 10px;
+  z-index: 1;
+  
 }
 nav a::after {
     content: "";
     position: absolute;
-    width: 50%;
+    width: 100%;
     height: 3px;
-    bottom: 0;
+    bottom: -0.5rem;
     left:0;
     
     transform:scaleX(0) ;
@@ -44,88 +45,90 @@ nav a:hover::after {
     transform-origin: left ;
 }
 .contain-image {
-width: 1400px;
+width: 1330px;
 position: relative;
-left: 0.1em
+left: 0.5em;
+bottom: 4em;
 
 }
 .contain-head {
-   color: white;
-    font-size: 60px;
-}
-.contain-head2 {
-    background: -webkit-linear-gradient(blue,white);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+   color:black;
     font-size: 70px;
+    text-align: center;
+    position: relative;
+    bottom: 8em;
+ 
 }
+
 .container {
    padding-left: 40em;
    position: absolute;
    top: 15em;
    
 }
+.icons {
+    position: relative;
+    bottom: 30em;
+ padding-left: 37em;
+ 
+ 
+}
+.desc {
+    text-align:center;
+     position:relative;
+      bottom: 27em;
+}
 @media screen and (max-width: 720px) {
     * {padding: 0;
         margin: 0;
         width: 100%;
     }
-    nav {
-        background-color: white;
-     width: 100%;
-     position: absolute;
-     left: 0;
-     float: left;
-     margin: 0 auto;
-    }
-nav img {
-    height: 50px;
-    width: 45px;
+ .contain-image {
+    width: 500px;
+    height: 400px;
     position: relative;
-    left: 1em;
-}
-nav a {
+    bottom: 5em;
+ }
+ nav a {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     font-size: 10px;
   position: relative;
-  left: 5em;
+ left: 7em;
   bottom: 2em;
-  
-}
-nav a::after {
-    content: "";
-    position: absolute;
-    width: 50%;
-    height: 1.5px;
-    bottom: 0;
-    left:0;
-    
-    transform:scaleX(0) ;
-    background-color:black;
-    transform-origin: right;
-    transition: transform 150ms ease-in-out;
+  margin-left: 7px;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+ }
 
-}
-nav a:hover::after {
-    transform: scaleX(1);
-    transform-origin: left ;
-
-}
-.contain-image {
-    width: 150px;
-    height: 300px;
+ nav img {
+    height: 35px;
+    width: 30px;
+    position: relative;
+    bottom: -2em;
+    left: 1em;
+    z-index: 1;
 }
 .contain-head {
-    font-size: 15px;
+    font-size: 20px;
+    position: relative;
+  left : -5em;
+    bottom: 15em;
 }
-.contain-head2 {
-    font-size: 15px;
-}
-.container {
+.desc {
     position: absolute;
-   top: -10em ;
-   right: -10em;
+    font-size: 13px;
+    right: 4em;
+    top: 18em;
+
+}
+.icons {
+    position: relative;
+    left: -30em;
+    bottom: 13em;
+    
+    
 }
 }
