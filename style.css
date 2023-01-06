@@ -21,7 +21,7 @@ nav a {
     font-size: 15px;
   position: relative;
   left: 35em;
-  bottom: 2em;
+  bottom: 1em;
   margin-left: 10px;
   z-index: 1;
   
@@ -78,57 +78,53 @@ bottom: 4em;
      position:relative;
       bottom: 27em;
 }
+.desc2 {
+    text-align:center;
+     position:relative;
+      bottom: 27em;
+}
 @media screen and (max-width: 720px) {
-    * {padding: 0;
-        margin: 0;
-        width: 100%;
-    }
- .contain-image {
-    width: 500px;
-    height: 400px;
+ nav {
+    background-color: white;
+ }  
+ nav img {
+    height: 30px;
+    width: 25px;
     position: relative;
-    bottom: 5em;
+    left: 1rem;
  }
  nav a {
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    font-size: 10px;
-  position: relative;
- left: 7em;
-  bottom: 2em;
-  margin-left: 7px;
-  z-index: 1;
-  display: flex;
-  flex-direction: row;
- }
-
- nav img {
-    height: 35px;
-    width: 30px;
+    display: flex;
+    flex-direction: row;
     position: relative;
-    bottom: -2em;
-    left: 1em;
-    z-index: 1;
-}
-.contain-head {
+    left: 6em;
+ }
+ .contain-image {
+    width:250px;
+    height: 400px;
+    position: relative;
+    bottom: 7rem;
+ }
+ .contain-head {
     font-size: 20px;
     position: relative;
-  left : -5em;
-    bottom: 15em;
-}
-.desc {
-    position: absolute;
-    font-size: 13px;
-    right: 4em;
-    top: 18em;
+    bottom: 19em;
 
 }
-.icons {
-    position: relative;
-    left: -30em;
-    bottom: 13em;
-    
-    
+.desc {
+    text-align: center;
+    font-size: 15px;
+position: relative;
+bottom: 20rem;
+position: absolute;
+
+}
+.desc2 {
+    text-align: center;
+    font-size: 15px;
+position: relative;
+bottom: 20rem;
+position: absolute;
+
 }
 }
