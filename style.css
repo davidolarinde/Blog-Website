@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-
+box-sizing: border-box;
 }
 
 nav {
@@ -45,19 +45,19 @@ nav a:hover::after {
     transform-origin: left ;
 }
 .contain-image {
-width: 1330px;
-position: relative;
-left: 0.5em;
-bottom: 4em;
+width: 100%;
+height: 100vh;
+position: fixed;
+top: 3px;
 
 }
 .contain-head {
    color:black;
     font-size: 70px;
     text-align: center;
-    position: relative;
-    bottom: 8em;
- 
+    position: absolute;
+    right: 500px;
+ top: 400px;
 }
 
 .container {
@@ -75,17 +75,23 @@ bottom: 4em;
 }
 .desc {
     text-align:center;
-     position:relative;
-      bottom: 27em;
+     position:absolute;
+      right: 15em;
+      top: 500px;
+      font-size: 40px;
 }
 .desc2 {
     text-align:center;
-     position:relative;
-      bottom: 27em;
+     position:absolute;
+     right: 17em;
+     font-size: 40px;
+     top:550px
 }
 @media screen and (max-width: 720px) {
  nav {
-    background-color: white;
+   position: absolute;
+    left: 0;
+    text-align: center;
  }  
  nav img {
     height: 30px;
@@ -98,25 +104,31 @@ bottom: 4em;
     flex-direction: row;
     position: relative;
     left: 6em;
+    font-size: 17px;
  }
  .contain-image {
-    width:250px;
-    height: 400px;
-    position: relative;
-    bottom: 7rem;
+    width:100%;
+    height:100vh;
+    position: fixed;
+    top: 5px;
+    left: 0;
  }
  .contain-head {
-    font-size: 20px;
-    position: relative;
-    bottom: 19em;
-
+    font-size: 24px;
+    position: absolute;
+    top: 8em;
+    right: 5em;
+   
 }
 .desc {
     text-align: center;
     font-size: 15px;
 position: relative;
-bottom: 20rem;
+bottom: 25rem;
 position: absolute;
+right: 10em;
+position: absolute;
+top: 250px;
 
 }
 .desc2 {
@@ -125,6 +137,7 @@ position: absolute;
 position: relative;
 bottom: 20rem;
 position: absolute;
-
+top: 280px;
+right: 10em;
 }
 }

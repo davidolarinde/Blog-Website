@@ -99,3 +99,35 @@ nav a:hover::after {
 color: gray;
 font-family: Arial, Helvetica, sans-serif;
 }
+.mon-container {
+    position: relative;
+    bottom: 11em;
+  background-color: white;  
+  width: 350px;
+  height: 400px;
+  border-radius: 5px;
+  z-index: 1;
+  position: relative;
+  left: 2.7em;
+}
+.mon-image {
+    width: 350px;
+    height: 300px;    
+}
+.mon-para {
+    color: gray;
+font-family: Arial, Helvetica, sans-serif;
+}
+.mon-btn {
+    border: 1px solid green;
+    background-color: transparent;
+  padding-top: 10px;
+  padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: absolute;
+    right: 90px;
+    top:21rem;
+    border-radius: 5px;
+    color: green;
+}

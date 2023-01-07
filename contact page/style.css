@@ -60,7 +60,7 @@ nav a:hover::after {
     bottom: -5em;
 }
 form {
-    background-color:darkslateblue;
+    background-color:darkblue;
     width: 99.92%;
     position: absolute;
     top: 5em;
@@ -130,23 +130,77 @@ button:hover {
     padding-left: 38em;
 }
 footer {
-   background-color: teal;
+   background-color:#1c1c1c;
+   height:100vh;
 }
 .contact-head {
-    padding-left: 36em;
+    padding-left: 30em;
+    position: relative;
+    bottom: -5rem;
 }
 .sign-up {
     padding-left: 50em;
     position: relative;
-    bottom: 2rem ;
+    bottom: -3rem ;
+}
+.address-head {
+    position: relative;
+    bottom: -10rem;
 }
 .address-heading {
     color: white;
     font-size: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    bottom: 2rem;
 }
 .address-para {
     color:gainsboro;
-    font-size: 13px;
+    font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    bottom: 1rem;
+}
+.address-para2 {
+    color: gainsboro;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contact-heading {
+    color: white;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sign-up-head {
+    color: white;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sign-item {
+   padding-bottom: 12px;
+   margin-bottom: 36px;
+    border:0;
+    background-color:#1c1c1c;
+    border-bottom: 1px solid #ccc;
+   font-size: 18px;
+  color: white;
+
+}
+.sign-item::placeholder {
+    color: white;
+    font-size: 13px;
+}
+.btn-sign {
+    position: relative;
+    bottom: -4rem;
+    left: -13rem;
+color: white;
+background-color: transparent;
+}
+
+@media screen and (max-width: 720px) {
+ nav {
+
+ } 
 }
