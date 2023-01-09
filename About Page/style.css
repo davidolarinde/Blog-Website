@@ -56,6 +56,9 @@ h1 {
 p {
    color: gray;
    font-size: 15px;
+   position: absolute;
+   right: 35em;
+   top:170px;
 }
 .head {
    text-align: center;
